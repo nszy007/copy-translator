@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: nszy007/copy-translator@v3
+    - uses: nszy007/copy-translator@latest
     - name: Build
       run: cargo build --verbose
     - name: Run tests
